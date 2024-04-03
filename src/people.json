@@ -1,0 +1,91 @@
+[
+    {
+      "name": "Chris Hemsworth",
+      "Location": "Providence",
+      "Age": 25,
+      "interests": "acting,cooking",
+      "image": "images/Chris_Hemsworth_by_Gage_Skidmore_2_(cropped).jpeg"
+    },
+
+    {
+        "name": "Tom Cruise",
+        "Location": "New York",
+        "Age": 45,
+        "interests": "acting, cooking, running",
+        "image": "images/anika.png"
+      },
+
+      {
+        "name": "Chris Jones",
+        "Location": "Boston",
+        "Age": 21,
+        "interests": "cooking",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "Sam K",
+        "Location": "Providence",
+        "Age": 28,
+        "interests": "painting",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "Jackson Knight",
+        "Location": "Seattle",
+        "Age": 28,
+        "interests": "coding",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "Jonathan J",
+        "Location": "Providence",
+        "Age": 22,
+        "interests": "photography, coding",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "Adam Brown",
+        "Location": "DC",
+        "Age": 20,
+        "interests": "sports, painting",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "William Jones",
+        "Location": "New York",
+        "Age": 30,
+        "interests": "finance",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "Henry George",
+        "Location": "Chicago",
+        "Age": 32,
+        "interests": "basketball",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "Jacob Red",
+        "Location": "Providence",
+        "Age": 25,
+        "interests": "biking",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "Derek J",
+        "Location": "Boston",
+        "Age": 28,
+        "interests": "healthcare",
+        "image": "images/anika.png"
+      },
+      {
+        "name": "Andrew N",
+        "Location": "Boston",
+        "Age": 21,
+        "interests": "cooking",
+        "image": "images/anika.png"
+      }
+ 
+   
+  ]
+  
