@@ -85,32 +85,35 @@ function App() {
       
       <input type="text" 
         placeholder="filter by age"
+        aria-label="filter by age input"
         value={ageFilter}
         onChange={(e) => setageFilter(e.target.value)} />
 
       <input type="text" 
         placeholder="filter by location"
+        aria-label="filter by location input"
         value={locFilter}
         onChange={(e) => setlocFilter(e.target.value)} />
 
       <input type="text" 
         placeholder="filter by interest"
+        aria-label="filter by interest input"
         value={intFilter}
         onChange={(e) => setintFilter(e.target.value)} />
     
 
       <div className="sort-dropdown"> 
-        <label htmlFor="Sort"> Sort By: </label>
+        <label htmlFor="Sort" aria-label="Sort by dropdown"> Sort By: </label>
         <select id="sort" value={sortBy} onChange={(e) => setSortBy(e.target.value)}> 
-          <option value=""> None </option>
-          <option value="Age"> Age </option>
-          <option value="A to Z"> A to Z </option>
+          <option value="" aria-label="none"> None </option>
+          <option value="Age" aria-label="age"> Age </option>
+          <option value="A to Z" aria-label="A to Z"> A to Z </option>
         
     
         </select>
 
       </div>
-      <button className="reset" onClick={resetFilters}> Reset Filters </button>
+      <button className="reset" aria-label="reset filter button" onClick={resetFilters}> Reset Filters </button>
       </div>
 
       <div className="match-sort"> 
@@ -122,7 +125,7 @@ function App() {
 
        {filteredPeople.map((person, index) => ( 
        
-        <Card key={index} person={person} addToMatch={addToMatch}  />
+        <Card aria-label={person} key={index} person={person} addToMatch={addToMatch}  />
         
        
         // <Card maxW='sm'> 
@@ -159,17 +162,26 @@ function App() {
         <ul> 
           {match.map((person,index) => ( 
             <div className="removeCard"> 
+
+            <div className="card-content"> 
+            <div className="info"> 
            
             <h1> {person.name} </h1>
+            
+             </div>
+             <div className="back"> 
              <p> {person.Location} </p>
              <p> {person.Age} </p>
              <p> {person.interests} </p>
-             <div className="card-footer"> 
+             </div>
+             </div>
+
+             <div className="card-footer" aria-label="remove from list button"> 
              <button onClick = {() => removeFromlist(person)}> Remove Match</button>
-            
+             </div>
    
    
-       </div>
+      
             
             
             

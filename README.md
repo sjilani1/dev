@@ -18,3 +18,5 @@ You can filter through age, location and interests on the top left side, and sor
 
 Add to Match adds a single match into the match-list and remove from match removes them. There is only one list and there is only one person allowed within each list. 
 
+A weakness in the code is it does not adjust the design based on changing interface sizes! 
+

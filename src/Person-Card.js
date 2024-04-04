@@ -17,9 +17,11 @@ function Card({ person, addToMatch }) {
              <p> {person.Age} </p>
              <p> {person.interests} </p>
          </div>
+         <div className="back"> 
          
          <img src={require('./Chris_Hemsworth_by_Gage_Skidmore_2_(cropped).jpeg')} />
           {/* <img src={person.image} className="pic" /> */}
+          </div>
         </div>
     <div className="card-footer"> 
     <button onClick={() => addToMatch(person)}>Add to Match List</button>
